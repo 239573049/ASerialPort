@@ -26,10 +26,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.HashMap;
 import java.util.Map;
-/**
- *注解主程序加载
- *
- * */
 public class MainActivity extends AppCompatActivity {
     public static String TAG="MainActivitu";
     public static AppBarConfiguration mAppBarConfiguration;

@@ -154,6 +154,7 @@
                         android:background="@color/colorPrimary"
                         android:layout_weight="1"
                         android:text="@string/SendNumber" />
+
                 </LinearLayout>
 
                 <LinearLayout
