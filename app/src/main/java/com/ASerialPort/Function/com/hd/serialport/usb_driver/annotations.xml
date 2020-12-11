@@ -1,0 +1,5 @@
+<root>
+    <item name='com.hd.serialport.usb_driver.UsbSerialPort'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

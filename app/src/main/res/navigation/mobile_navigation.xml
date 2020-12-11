@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/ModbusView">
+
+
+    <fragment
+        android:id="@+id/ModbusView"
+        android:name="com.ASerialPort.ui.Modbus.ModbusFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_modbus" />
+    <fragment
+        android:id="@+id/DLT645View"
+        android:name="com.ASerialPort.ui.DLT645.DLT645Fragment"
+        android:label="@string/menu_645"
+        tools:layout="@layout/fragment_modbus" />
+
+    <fragment
+        android:id="@+id/AboutView"
+        android:name="com.ASerialPort.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_about" />
+
+
+</navigation>
